@@ -5,6 +5,7 @@
     <title>Projeto CRM</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../Projeto-CRM-PWS/View/css/style.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -31,9 +32,9 @@
                 </ul>
             </div>
         </nav>
-
-
     </header>
+
+
     <div class="imagem">
-        <img src="/img/teamgroup.jpg" alt="First slide" width="500" height="600">
+        <img src="../Projeto-CRM-PWS/View/img/teamgroup.jpg" alt="First slide">
     </div>
