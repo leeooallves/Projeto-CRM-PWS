@@ -1,5 +1,5 @@
                <div class="limitesInternos">
-                   <a class="itemMenu" href="../View/novoUsuario.php">Novo Usuário</a>
+                   <a class="itemMenu" href="?pagina=novoUsuario">Novo Usuário</a>
 
                    <table class="table table-dark">
                        <tr style="justify-content: center;">

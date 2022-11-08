@@ -1,3 +1,9 @@
+<?php
+$usuario = $_POST['usuario'] ?? '';
+$senha = $_POST['senha'] ?? '';
+$erro = false;
+?>
+
 <section class="secaoForm">
 
     <div class="limitesInternos">

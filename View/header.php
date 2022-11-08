@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../View/funcionarios.php">Funcionários<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="?pagina=funcionarios">Funcionários<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="../View/usuarios.php">Usuários<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="?pagina=usuarios">Usuários<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="../View/usuarios.php">Compras<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="??pagina=compras">Compras<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <a href="../Projeto-CRM-PWS/View/login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
