@@ -16,7 +16,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Projeto CRM</a>
+            <a class="navbar-brand" href="?pagina=home">Projeto CRM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,13 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Funcionários <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../View/funcionarios.php">Funcionários<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Usuários <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../View/usuarios.php">Usuários<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../View/usuarios.php">Compras<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
+                <a href="../Projeto-CRM-PWS/View/login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
             </div>
         </nav>
     </header>
