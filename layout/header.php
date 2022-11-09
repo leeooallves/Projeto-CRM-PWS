@@ -33,7 +33,7 @@
                         <a class="nav-link" href="??pagina=compras">Compras<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <a href="../Projeto-CRM-PWS/View/login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
+                <a href="../View/login.view.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
             </div>
         </nav>
     </header>

@@ -7,7 +7,6 @@ class Usuario
     public $emal;
     private $senha;
     public $telefone;
-    public $cargo;
 
     public function __get($name)
     {

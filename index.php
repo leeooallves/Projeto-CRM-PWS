@@ -1,7 +1,7 @@
 <?php
 
 
-require("View/header.php");
+require("../Projeto-CRM-PWS/layout/header.php");
 
 if (isset($_GET['pagina'])) {
     $pagina = $_GET['pagina'];
@@ -11,16 +11,16 @@ if (isset($_GET['pagina'])) {
 
 $pagina = $_GET['pagina'];
 if ($pagina == 'funcionarios') {
-    require('View/funcionarios.php');
+    require('../Projeto-CRM-PWS/View/funcionarios.view.php');
 } elseif ($pagina == 'usuarios') {
-    require('View/usuarios.php');
+    require('../Projeto-CRM-PWS/View/usuarios.view.php');
 } elseif ($pagina == 'novoFuncionario') {
-    require('View/novoFuncionario.php');
+    require('../Projeto-CRM-PWS/View/novoFuncionario.view.php');
 } elseif ($pagina == 'novoUsuario') {
-    require('View/novoUsuario.php');
+    require('../Projeto-CRM-PWS/View/novoUsuario.view.php');
 } else {
-    require('View/home.php');
+    require('../Projeto-CRM-PWS/View/funcionarios.view.php');
 }
 
 
-require("View/footer.php");
+require("../Projeto-CRM-PWS/layout/footer.php");
