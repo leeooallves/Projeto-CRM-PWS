@@ -2,7 +2,7 @@
     <div class="limitesfuncionarios">
         <article class="articleNovofuncionario">
             <p>
-            <form class="formFuncionario" method="POST" action="/UTFPR/Projeto/projeto22/model/cadastrarFuncionarioDB.php">
+            <form class="formFuncionario" method="POST" action="index.php?acao=criarFuncionario">
                 <fieldset id="funcionario" class="boxCadastro">
                     <p class="boxLoginLabel">Novo Funcionário</p>
                     <div class="faixaBrancaBoxLogin"></div>
